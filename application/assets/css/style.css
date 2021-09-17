@@ -1,0 +1,66 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap');
+
+* {
+	font-family: 'Sarabun', sans-serif;
+	/* font-size: 18px !important; */
+}
+
+.th, table, tr, td{
+	font-family: 'Sarabun', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Sarabun', sans-serif;
+	font-weight: 400;
+}
+
+/* html .navbar-static .app-content .content-wrapper{
+	padding: 1.8rem 1rem 0
+} */
+
+.text-dark{
+	color: #000 !important;
+}
+
+.btn-success {
+    border-color: #22b169 !important;
+    background-color: #22b169 !important;
+    color: #fff;
+}
+
+.bg-success {
+    background-color: #22b169 !important;
+}
+
+.btest{
+	color: #4a5751;
+}
+
+*:fullscreen
+*:-ms-fullscreen,
+*:-webkit-full-screen,
+*:-moz-full-screen {
+   overflow: auto !important;
+}
+
+.dn{
+	display: none;
+}
+
+#DataTables_Table_0_wrapper .btn-secondary {
+	border-color: #22b169 !important;
+    background-color: #22b169 !important;
+    color: #fff;
+}
